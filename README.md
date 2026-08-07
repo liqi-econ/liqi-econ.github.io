@@ -1,2 +1,2 @@
 # liqi-econ.github.io
-Personal Academic Website
+Personal Academic Website of Li QI
