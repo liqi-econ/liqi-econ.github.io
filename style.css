@@ -89,3 +89,14 @@ footer { background: #181a1c; color: #bbb; padding: 28px 0; font-size: .8rem; }
 .publication-list a:hover {
   border-bottom-color: #222;
 }
+
+/* Tighter spacing for interior content pages */
+
+main > .section {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+main > .section + .section {
+  padding-top: 2.5rem;
+}
