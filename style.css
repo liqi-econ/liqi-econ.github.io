@@ -60,3 +60,21 @@ footer { background: #181a1c; color: #bbb; padding: 28px 0; font-size: .8rem; }
   .section { padding-top: 70px; padding-bottom: 70px; }
   .footer-wrap { flex-direction: column; }
 }
+/* Academic publication lists */
+
+.publication-list {
+  margin-top: 1.5rem;
+}
+
+.publication-list p {
+  margin: 0 0 1.6rem 0;
+  line-height: 1.65;
+}
+
+.publication-list strong {
+  font-weight: 600;
+}
+
+.publication-list em {
+  font-family: Georgia, "Times New Roman", serif;
+}
