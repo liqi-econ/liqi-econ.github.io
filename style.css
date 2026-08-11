@@ -169,3 +169,7 @@ main > .section + .section {
     font-size: 1.25rem;
   }
 }
+/* Homepage name size */
+.home-name {
+  font-size: clamp(3.2rem, 6vw, 5.5rem);
+}
