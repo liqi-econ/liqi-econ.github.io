@@ -17,7 +17,7 @@ body {
 .nav-wrap { min-height: 108px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
 .brand { font-family: Georgia, serif; font-size: 1.3rem; letter-spacing: .16em; color: #222; text-decoration: none; font-weight: 700; }
 nav { display: flex; flex-wrap: wrap; gap: 24px; }
-nav a { color: #4a4a4a; text-decoration: none; font-size: .88rem; }
+nav a { color: #4a4a4a; text-decoration: none; font-size: 1rem; }
 nav a:hover { color: #000; }
 .hero { min-height: 620px; display: grid; grid-template-columns: 1.45fr .75fr; gap: 80px; align-items: center; padding-top: 70px; padding-bottom: 70px; }
 .eyebrow, .section-label { font-size: .75rem; letter-spacing: .2em; font-weight: 700; color: #6d6258; }
