@@ -263,3 +263,7 @@ main > .section + .section {
 .creative-writing-section {
   padding-top: 35px;
 }
+
+.creative-intro {
+  padding-bottom: 30px;
+}
