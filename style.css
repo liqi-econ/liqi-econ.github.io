@@ -246,3 +246,6 @@ main > .section + .section {
   color: #6d6258;
   margin: 0 0 18px;
 }
+.research-page-title {
+  font-size: clamp(2.6rem, 4vw, 3.8rem);
+}
