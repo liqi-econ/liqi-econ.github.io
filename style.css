@@ -19,7 +19,16 @@ body {
 nav { display: flex; flex-wrap: wrap; gap: 24px; }
 nav a { color: #4a4a4a; text-decoration: none; font-size: 1.15rem; }
 nav a:hover { color: #000; }
-.hero { min-height: 620px; display: grid; grid-template-columns: 1.45fr .75fr; gap: 80px; align-items: center; padding-top: 70px; padding-bottom: 70px; }
+.hero {
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: 1.45fr .75fr;
+  gap: 80px;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
 .eyebrow, .section-label { font-size: .75rem; letter-spacing: .2em; font-weight: 700; color: #6d6258; }
 h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500; line-height: 1.15; }
 h1 { font-size: clamp(4rem, 8vw, 7rem); margin: 12px 0 20px; }
@@ -178,11 +187,11 @@ main > .section + .section {
 
 .home-contact {
   background: #edf2ed;
-  padding: 65px 0 75px;
+  padding: 38px 0 42px;
 }
 
 .home-contact h2 {
-  margin: 8px 0 35px;
+  margin: 5px 0 20px;
 }
 
 .home-contact-inner {
@@ -192,7 +201,7 @@ main > .section + .section {
 .contact-details {
   display: flex;
   gap: 90px;
-  padding-top: 25px;
+  padding-top: 16px;
   border-top: 1px solid #c4cec4;
 }
 
