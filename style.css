@@ -276,3 +276,40 @@ background: #edf2ed;
 .teaching-page-title {
   font-size: clamp(2.6rem, 4vw, 3.8rem);
 }
+
+/* Teaching page section links — align with Academic Research */
+
+.teaching-links {
+  width: min(820px, 88%);
+  margin: 35px auto 70px;
+}
+
+.teaching-links .research-row {
+  display: grid;
+  grid-template-columns: 55px 1fr 30px;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid #d8d8d8;
+  color: #202326;
+  text-decoration: none;
+}
+
+.teaching-links .research-row:last-child {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.teaching-links .research-number {
+  font-size: 0.75rem;
+  color: #6d6258;
+}
+
+.teaching-links .research-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
+}
+
+.teaching-links .research-arrow {
+  text-align: right;
+  font-size: 1.1rem;
+}
