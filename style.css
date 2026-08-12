@@ -249,3 +249,17 @@ main > .section + .section {
 .research-page-title {
   font-size: clamp(2.6rem, 4vw, 3.8rem);
 }
+
+
+.creative-page-title {
+  font-size: clamp(2.6rem, 4vw, 3.8rem);
+}
+
+
+.creative-intro {
+  padding-bottom: 35px;
+}
+
+.creative-writing-section {
+  padding-top: 35px;
+}
