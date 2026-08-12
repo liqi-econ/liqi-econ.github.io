@@ -173,3 +173,56 @@ main > .section + .section {
 .home-name {
   font-size: clamp(3.2rem, 6vw, 5.5rem);
 }
+
+/* Homepage contact section */
+
+.home-contact {
+  background: #edf2ed;
+  padding: 65px 0 75px;
+}
+
+.home-contact h2 {
+  margin: 8px 0 35px;
+}
+
+.home-contact-inner {
+  max-width: 1120px;
+}
+
+.contact-details {
+  display: flex;
+  gap: 90px;
+  padding-top: 25px;
+  border-top: 1px solid #c4cec4;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.contact-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6d6258;
+}
+
+.contact-detail a {
+  color: #202326;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.contact-detail a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .contact-details {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
