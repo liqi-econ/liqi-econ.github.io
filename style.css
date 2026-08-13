@@ -333,3 +333,9 @@ main {
 .home-name {
     font-size: clamp(2.6rem, 4vw, 3.8rem);
 }
+
+/* Reduce space between research sections */
+.research-page .section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
