@@ -336,6 +336,10 @@ main {
 
 /* Reduce space between research sections */
 .research-page .section {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* Reduce gap before Economic Development & East Asia */
+#development {
+    padding-top: 30px;
 }
