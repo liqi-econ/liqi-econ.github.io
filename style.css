@@ -334,3 +334,10 @@ main {
     font-size: clamp(2.6rem, 4vw, 3.8rem);
 }
 
+/* Smaller subsection headings on Teaching page */
+#courses .section-heading h2,
+#experiential .section-heading h2,
+#mentoring .section-heading h2 {
+  font-size: 38px;
+  line-height: 1.15;
+}
