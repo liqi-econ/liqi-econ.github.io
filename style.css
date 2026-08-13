@@ -363,3 +363,10 @@ main {
 .title-link:hover {
   text-decoration-thickness: 2px;
 }
+
+/* Vertically center homepage portrait beside text */
+@media (min-width: 701px) {
+  .hero .portrait-wrap {
+    align-self: center;
+  }
+}
