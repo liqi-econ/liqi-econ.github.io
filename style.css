@@ -368,6 +368,6 @@ main {
 @media (min-width: 701px) {
   .hero .portrait-wrap {
     align-self: center;
-    transform: translateY(55px);
+    transform: translateY(65px);
   }
 }
