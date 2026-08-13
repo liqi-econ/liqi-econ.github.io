@@ -313,3 +313,18 @@ background: #edf2ed;
   text-align: right;
   font-size: 1.1rem;
 }
+
+/* Keep homepage contact section at bottom of viewport */
+body {
+    min-height: 100vh;
+}
+
+main {
+    min-height: calc(100vh - 96px);
+    display: flex;
+    flex-direction: column;
+}
+
+.home-contact {
+    margin-top: auto;
+}
