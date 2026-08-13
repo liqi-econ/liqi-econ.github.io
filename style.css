@@ -341,3 +341,15 @@ main {
   font-size: 38px;
   line-height: 1.15;
 }
+
+/* Align all Teaching page sections consistently */
+#courses,
+#experiential,
+#mentoring {
+  max-width: 1100px;
+  width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
