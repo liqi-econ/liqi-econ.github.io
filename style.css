@@ -328,3 +328,8 @@ main {
 .home-contact {
     margin-top: auto;
 }
+
+/* Match homepage Li Qi heading size to Contact page */
+.home-name {
+    font-size: clamp(2.6rem, 4vw, 3.8rem);
+}
