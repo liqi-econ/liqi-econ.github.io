@@ -342,4 +342,9 @@ main {
   line-height: 1.15;
 }
 
-
+/* Keep Teaching section titles visible below sticky header */
+#courses,
+#experiential,
+#mentoring {
+  scroll-margin-top: 120px;
+}
