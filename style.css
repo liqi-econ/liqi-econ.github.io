@@ -371,3 +371,13 @@ main {
     transform: translateY(65px);
   }
 }
+
+/* Creative Writing page — reduce vertical gap */
+.creative-page .section {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.creative-page .section + .section {
+  padding-top: 20px;
+}
