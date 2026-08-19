@@ -372,12 +372,11 @@ main {
   }
 }
 
-/* Creative Writing page — reduce vertical gap */
-.creative-page .section {
-  padding-top: 35px;
-  padding-bottom: 35px;
+/* Creative Writing page: tighten space between intro and writing */
+.creative-intro {
+  padding-bottom: 25px;
 }
 
-.creative-page .section + .section {
-  padding-top: 20px;
+.creative-intro + .section {
+  padding-top: 25px;
 }
