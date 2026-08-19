@@ -380,3 +380,37 @@ main {
 .creative-intro + .section {
   padding-top: 25px;
 }
+
+/* Creative Writing page — tighter spacing */
+.creative-intro {
+  padding-bottom: 25px;
+}
+
+.creative-intro + .section {
+  padding-top: 25px;
+}
+
+/* Essays & Stories + Tennis Writing side by side */
+.writing-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  margin-top: 20px;
+}
+
+.writing-column h2 {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.tennis-link {
+  font-weight: 600;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  .writing-columns {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+}
