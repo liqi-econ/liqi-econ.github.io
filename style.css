@@ -471,3 +471,11 @@ main {
   margin: 0;
   line-height: 1.6;
 }
+.essay-note {
+  margin: 0 0 28px;
+}
+
+.essay-note a {
+  color: inherit;
+  text-decoration: underline;
+}
