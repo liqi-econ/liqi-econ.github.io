@@ -372,45 +372,50 @@ main {
   }
 }
 
-/* Creative Writing page: tighten space between intro and writing */
+/* ===== Creative Writing page ===== */
+
+/* Reduce space below introduction */
 .creative-intro {
-  padding-bottom: 25px;
+  padding-bottom: 10px !important;
 }
 
+/* Reduce space above Selected Writing */
 .creative-intro + .section {
-  padding-top: 25px;
+  padding-top: 10px !important;
 }
 
-/* Creative Writing page — tighter spacing */
-.creative-intro {
-  padding-bottom: 25px;
+/* Two-column layout */
+.creative-writing-section .writing-columns {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  column-gap: 80px;
+  align-items: start;
+  margin-top: 12px;
 }
 
-.creative-intro + .section {
-  padding-top: 25px;
-}
-
-/* Essays & Stories + Tennis Writing side by side */
-.writing-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 70px;
-  margin-top: 20px;
-}
-
-.writing-column h2 {
+/* Slightly smaller section titles */
+.creative-writing-section .writing-column h2 {
+  font-size: 2.25rem;
+  line-height: 1.1;
   margin-top: 0;
-  margin-bottom: 22px;
+  margin-bottom: 18px;
 }
 
-.tennis-link {
+/* Tighten paragraphs within the columns */
+.creative-writing-section .writing-column p {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+/* Tennis link */
+.creative-writing-section .tennis-link {
   font-weight: 600;
 }
 
-/* Mobile layout */
+/* Stack columns on phones */
 @media (max-width: 700px) {
-  .writing-columns {
-    grid-template-columns: 1fr;
-    gap: 35px;
+  .creative-writing-section .writing-columns {
+    grid-template-columns: 1fr !important;
+    row-gap: 30px;
   }
 }
