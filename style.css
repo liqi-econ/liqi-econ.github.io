@@ -461,18 +461,10 @@ main {
 }
 
 .tennis-essay h2 {
-  font-size: 1.55rem;
-  line-height: 1.25;
-  margin: 0 0 7px;
-}
-
-.tennis-essay h2 a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.tennis-essay h2 a:hover {
-  text-decoration: underline;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin: 0 0 6px;
+  font-weight: 600;
 }
 
 .tennis-essay p {
